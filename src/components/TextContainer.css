@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+.text-container-solid {
+    display: flexbox;
+    text-align: left;
+    padding: 11em;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-container {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 9vw;
+    margin: 10px;
+    transition: background-color 0.5s ease;
+    text-align: left;
+    display: flexbox;
+}
+
+h1, h2, h3 {
+    font-family: 'Doto';
+    font-weight: bolder;
+    color: white;
+    padding: .2em;
+}
+
+p {
+    font-family: 'Monospace';
+}
+
+.fading {
+  animation: fadeInDown .7s ease forwards;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

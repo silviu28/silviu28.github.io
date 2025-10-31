@@ -1,0 +1,30 @@
+{
+  "github": "https://github.com/silviu28",
+  "linkedin": "https://www.linkedin.com/in/silviu-cristian-bunduc-15360a333/",
+  "resume": "#",
+
+  "calculator": {
+    "title": "C# Calculator",
+    "description": "A desktop calculator that features a programmer mode with bases 2-16 and 8-digit precision floating-point compute."
+  },
+
+  "cards": {
+    "title": "Card Matching Game",
+    "description": "A C# take on the classic card matching game. Features user progress and session saving."
+  },
+
+  "controller": {
+    "title": "Remote Control for Food Dispenser",
+    "description": "An Android app made in Java to control a bluetooth-controlled Arduino food dispensing truck."
+  },
+
+  "restaurant": {
+    "title": "Desktop Restaurant App",
+    "description": "A C# WPF desktop application that offers both an administrator panel for the employees and an intuitive interface for users."
+  },
+
+  "shooter": {
+    "title": "Topdown Retro Shooter",
+    "description": "A Qt spin to the classic Battle City."
+  }
+}

@@ -1,0 +1,35 @@
+#root {
+  text-align: center;
+}
+
+.fixed-bg {
+  background-image: url('waves.png');
+  background-size: stretch;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 5%;
+}
+
+mark {
+  background-color: orange;
+}
+
+mark:hover {
+  background-color: black;
+  color: white;
+}
+
+.fading {
+  animation: fadeInDown 0.5s ease forwards;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
